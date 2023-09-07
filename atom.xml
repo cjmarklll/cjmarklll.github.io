@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-07T08:33:01.627Z</updated>
+  <updated>2023-09-07T08:47:48.029Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>分解质因数</title>
     <link href="http://example.com/undefined/undefined.html"/>
     <id>http://example.com/undefined/undefined.html</id>
-    <published>2023-09-07T07:58:03.976Z</published>
-    <updated>2023-09-07T08:33:01.627Z</updated>
+    <published>2023-09-07T08:47:30.000Z</published>
+    <updated>2023-09-07T08:47:48.029Z</updated>
     
     <content type="html"><![CDATA[<h1 id="分解质因数"><a href="#分解质因数" class="headerlink" title="分解质因数"></a>分解质因数</h1><p>：</p><p>算术基本定理：</p><p>算术基本定理可表述为：任何一个大于1的自然数 N,如果N不为质数，那么N可以唯一分解成有限个质数的乘积。</p><h3 id="结论一"><a href="#结论一" class="headerlink" title="结论一"></a>结论一</h3><p>首先根据 <strong>算术基本定理</strong> 可以知道，一个合数可以由多个比他小的质数相乘而得，而这些质数就是他的质因数。</p><p>并且，例如一个数 x是 n 的因数，并且是合数，那么问一个问题。是否存在一个质数是 x 的质因数，而不是 n 的质因数？答案是不可能的哈</p><p>证明：</p><blockquote><p>很明显 因为 n&#x2F;x &#x3D; k，那么 x 的质因数组成 x 的时候只要再乘以 k 就可以得到 n，因此可以得出一个结论：<strong>n 的因数的质因数，肯定也是 n 的质因数</strong>。</p></blockquote><h3 id="结论二"><a href="#结论二" class="headerlink" title="结论二"></a><strong>结论二</strong></h3><p>那么能不能得到一个结论就是，<strong>n 的任何一个因数 x假如他是合数，那么他绝对可以由 n 的小于x的质因数所相乘而得</strong></p><p>答案是可以的哈</p><p>证明：</p><blockquote><p>根据上面的结论推导一下就可以了。n 的因数如果是合数，那么他绝对可以由比他小的质因数组合而成，同时这些质因数是 n 的质因数，那么不就可以得到上面问题的结论。</p></blockquote><h3 id="结论三"><a href="#结论三" class="headerlink" title="结论三"></a>结论三</h3><p>因此最后我们又可以得到一条结论：<strong>一个数的因数，如果排序的话，最开始的因数肯定是质因数，后面才有合数</strong>。</p><p>可不可以这么推论呢？可以的。</p><p>证明：</p><blockquote><p>还是根据第一条理论。假如n 的因数除了 1 之外第一个因数是合数，那么他绝对可以由一些质因数组合而成，那么这些数是比他小的，且是 n 的质因数，因此，这些数也是 n 的因数，并且是质数。</p></blockquote><h3 id="结论四"><a href="#结论四" class="headerlink" title="结论四"></a>结论四</h3><p><strong>数 x 是数 n 的因数，且是合数，那么 n 的质因数不一定是 x 的质因数，而 x 的 质因数一定是 n 的质因数。</strong>因此当将 n 的所有比x 小的质因数都除尽的时候，因此当 i 为 x 的时候自然是无法进行整除的。</p><p>因此现在可以证明，从小到大遍历数 n 的因数，并且每次都除尽的话，那么只会遍历到数 n 的质因数，而不会是合数</p><p>最后可以得出，每次<code>if(n%i==0)</code> 成立的时候 i 一定是 n 的质因数。</p>]]></content>
     
