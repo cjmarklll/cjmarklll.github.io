@@ -1,5 +1,10 @@
-http://example.com/undefined/0.html
+http://example.com/undefined/6d927e9f.html
+http://example.com/categories/index.html
+http://example.com/tags/index.html
 http://example.com/undefined/f1b6fc8a.html
 http://example.com/undefined/ece2ea76.html
 http://example.com/link/index.html
 http://example.com/
+http://example.com/tags/STL/
+http://example.com/tags/%E7%AE%97%E6%B3%95/
+http://example.com/categories/STL/
