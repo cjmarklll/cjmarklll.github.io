@@ -1,3 +1,4 @@
+http://example.com/undefined/dfab75bc.html
 http://example.com/undefined/1ae3852a.html
 http://example.com/undefined/f1b6fc8a.html
 http://example.com/undefined/ece2ea76.html
@@ -6,8 +7,9 @@ http://example.com/categories/index.html
 http://example.com/tags/index.html
 http://example.com/link/index.html
 http://example.com/
+http://example.com/tags/%E6%95%B0%E8%AE%BA/
 http://example.com/tags/STL/
 http://example.com/tags/%E7%AE%97%E6%B3%95/
-http://example.com/tags/%E6%95%B0%E8%AE%BA/
 http://example.com/tags/%E6%9D%82%E9%A2%98/
+http://example.com/tags/%E9%A2%98%E8%A7%A3/
 http://example.com/categories/STL/
